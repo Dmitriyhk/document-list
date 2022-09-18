@@ -1,7 +1,8 @@
 import React from "react";
+import DocumentSearch from "./pages/DocumentSearch";
 
 const App = () => {
-  return <div>App</div>;
+  return <DocumentSearch />;
 };
 
 export default App;

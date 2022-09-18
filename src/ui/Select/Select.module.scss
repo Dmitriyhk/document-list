@@ -1,0 +1,97 @@
+.container {
+  position: relative;
+  color: gray;
+}
+.wrapper {
+  width: 100%;
+}
+
+.button {
+  border: 1px solid gray;
+  background: white;
+  border-radius: 6px;
+  width: 100%;
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: block;
+  padding: 6px 8px;
+  position: relative;
+  text-align: left;
+  color: black;
+
+  &_icon {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 12px;
+    height: 12px;
+    transform: rotate(180deg);
+    &__expanded {
+      transform: rotate(0);
+    }
+  }
+  &_close {
+    position: absolute;
+    right: 36px;
+    top: 10px;
+    width: 14px;
+    height: 14px;
+    padding: 2px;
+    &:hover {
+      & path {
+        fill: rgb(51, 51, 51);
+      }
+    }
+  }
+  &:disabled {
+    color: gray;
+  }
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.options {
+  display: none;
+  list-style: none;
+  position: absolute;
+  top: 54px;
+
+  left: 0;
+
+  width: 100%;
+
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  background: white;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    padding: 4px 8px;
+    color: black;
+  }
+}
+
+.show {
+  display: block;
+  z-index: 1;
+}
+
+.options li:hover {
+  background: rgb(210, 210, 210);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.options li:active,
+.options li:focus,
+.options li[aria-selected="true"] {
+  background: gray;
+  border-radius: 4px;
+  cursor: pointer;
+}

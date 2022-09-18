@@ -1,0 +1,18 @@
+.datepicker {
+  width: 100%;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 6px;
+  padding: 6 32 6 12;
+  transition: border 0.2s;
+  caret-color: black;
+  &:focus {
+    outline: 0 !important;
+    border: 1px solid gray;
+  }
+  &_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+  }
+}
