@@ -1,0 +1,58 @@
+.list {
+  display: flex;
+  width: 70%;
+  flex-direction: column;
+  gap: 25px;
+  max-height: calc(100vh - 84px);
+  overflow: auto;
+  padding-right: 10px;
+  &::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: rgb(203, 203, 203);
+    border-radius: 14px;
+  }
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  border: 2px solid rgb(10, 48, 56);
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  &_wrapper {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    width: 100%;
+  }
+  &::after {
+    content: "";
+    box-sizing: border-box;
+    position: absolute;
+    left: 4px;
+    top: 4px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

@@ -1,18 +1,284 @@
 {
   "documents": [
     {
-      "id": 1,
+      "id": "1",
       "title": "ULYSSES",
       "date": "22.08.2022",
-      "size": "5,21",
+      "size": "5.21",
       "type": "doc"
     },
     {
-      "id": 2,
+      "id": "2",
       "title": "THE GREAT GATSBY",
       "date": "22.08.2021",
-      "size": "1,21",
-      "type": "exel"
+      "size": "1.21",
+      "type": "doc"
+    },
+    {
+      "id": "3",
+      "title": "A PORTRAIT OF THE ARTIST AS A YOUNG MAN",
+      "date": "14.01.2001",
+      "size": "2.09",
+      "type": "pdf"
+    },
+    {
+      "id": "4",
+      "title": "LOLITA",
+      "date": "22.04.2010",
+      "size": "0.65",
+      "type": "txt"
+    },
+    {
+      "id": "5",
+      "title": "BRAVE NEW WORLD",
+      "date": "21.03.2009",
+      "size": "99.1",
+      "type": "ODT"
+    },
+    {
+      "id": "6",
+      "title": "THE SOUND AND THE FURY",
+      "date": "22.09.2022",
+      "size": "8.09",
+      "type": "ODT"
+    },
+    {
+      "id": "7",
+      "title": "CATCH-22",
+      "date": "19.12.2013",
+      "size": "8.21",
+      "type": "txt"
+    },
+    {
+      "id": "8",
+      "title": "DARKNESS AT NOON",
+      "date": "03.09.2007",
+      "size": "7.33",
+      "type": "doc"
+    },
+    {
+      "id": "9",
+      "title": "SONS AND LOVERS",
+      "date": "02.03.2011",
+      "size": "4.31",
+      "type": "pdf"
+    },
+    {
+      "id": "10",
+      "title": "THE GRAPES OF WRATH",
+      "date": "31.12.2020",
+      "size": "2.33",
+      "type": "xls"
+    },
+    {
+      "id": "11",
+      "title": "UNDER THE VOLCANO",
+      "date": "20.07.2022",
+      "size": "2.33",
+      "type": "xls"
+    },
+    {
+      "id": "12",
+      "title": "THE WAY OF ALL FLESH",
+      "date": "20.12.2020",
+      "size": "2.33",
+      "type": "txt"
+    },
+    {
+      "id": "13",
+      "title": "1984",
+      "date": "20.06.2022",
+      "size": "2.33",
+      "type": "pdf"
+    },
+    {
+      "id": "14",
+      "title": "I, CLAUDIUS",
+      "date": "03.03.2003",
+      "size": "2.33",
+      "type": "doc"
+    },
+    {
+      "id": "15",
+      "title": "TO THE LIGHTHOUSE",
+      "date": "08.08.2008",
+      "size": "2.33",
+      "type": "pdf"
+    },
+    {
+      "id": "16",
+      "title": "AN AMERICAN TRAGEDY",
+      "date": "07.07.2007",
+      "size": "2.33",
+      "type": "doc"
+    },
+    {
+      "id": "17",
+      "title": "THE HEART IS A LONELY HUNTER",
+      "date": "09.12.2017",
+      "size": "2.33",
+      "type": "pdf"
+    },
+    {
+      "id": "18",
+      "title": "SLAUGHTERHOUSE-FIVE",
+      "date": "14.04.2018",
+      "size": "2.33",
+      "type": "xls"
+    },
+    {
+      "id": "19",
+      "title": "INVISIBLE MAN",
+      "date": "23.04.1996",
+      "size": "2.33",
+      "type": "doc"
+    },
+    {
+      "id": "20",
+      "title": "NATIVE SON",
+      "date": "05.05.2020",
+      "size": "2.33",
+      "type": "pdf"
+    },
+    {
+      "id": "21",
+      "title": "ULYSSES",
+      "date": "22.08.2022",
+      "size": "5.21",
+      "type": "doc"
+    },
+    {
+      "id": "22",
+      "title": "THE GREAT GATSBY",
+      "date": "22.08.2021",
+      "size": "1.21",
+      "type": "doc"
+    },
+    {
+      "id": "23",
+      "title": "A PORTRAIT OF THE ARTIST AS A YOUNG MAN",
+      "date": "14.01.2001",
+      "size": "2.09",
+      "type": "pdf"
+    },
+    {
+      "id": "24",
+      "title": "LOLITA",
+      "date": "22.04.2010",
+      "size": "0.65",
+      "type": "txt"
+    },
+    {
+      "id": "25",
+      "title": "BRAVE NEW WORLD",
+      "date": "21.03.2009",
+      "size": "99.1",
+      "type": "ODT"
+    },
+    {
+      "id": "26",
+      "title": "THE SOUND AND THE FURY",
+      "date": "22.09.2022",
+      "size": "8.09",
+      "type": "ODT"
+    },
+    {
+      "id": "27",
+      "title": "CATCH-22",
+      "date": "19.12.2013",
+      "size": "8.21",
+      "type": "txt"
+    },
+    {
+      "id": "28",
+      "title": "DARKNESS AT NOON",
+      "date": "03.09.2007",
+      "size": "7.33",
+      "type": "doc"
+    },
+    {
+      "id": "29",
+      "title": "SONS AND LOVERS",
+      "date": "02.03.2011",
+      "size": "4.31",
+      "type": "pdf"
+    },
+    {
+      "id": "30",
+      "title": "THE GRAPES OF WRATH",
+      "date": "31.12.2020",
+      "size": "2.33",
+      "type": "xls"
+    },
+    {
+      "id": "31",
+      "title": "UNDER THE VOLCANO",
+      "date": "20.07.2022",
+      "size": "2.33",
+      "type": "xls"
+    },
+    {
+      "id": "32",
+      "title": "THE WAY OF ALL FLESH",
+      "date": "20.12.2020",
+      "size": "2.33",
+      "type": "txt"
+    },
+    {
+      "id": "33",
+      "title": "1984",
+      "date": "20.06.2022",
+      "size": "2.33",
+      "type": "pdf"
+    },
+    {
+      "id": "34",
+      "title": "I, CLAUDIUS",
+      "date": "03.03.2003",
+      "size": "2.33",
+      "type": "doc"
+    },
+    {
+      "id": "35",
+      "title": "TO THE LIGHTHOUSE",
+      "date": "08.08.2008",
+      "size": "2.33",
+      "type": "pdf"
+    },
+    {
+      "id": "36",
+      "title": "AN AMERICAN TRAGEDY",
+      "date": "07.07.2007",
+      "size": "2.33",
+      "type": "doc"
+    },
+    {
+      "id": "37",
+      "title": "THE HEART IS A LONELY HUNTER",
+      "date": "09.12.2017",
+      "size": "2.33",
+      "type": "pdf"
+    },
+    {
+      "id": "38",
+      "title": "SLAUGHTERHOUSE-FIVE",
+      "date": "14.04.2018",
+      "size": "2.33",
+      "type": "xls"
+    },
+    {
+      "id": "39",
+      "title": "INVISIBLE MAN",
+      "date": "23.04.1996",
+      "size": "2.33",
+      "type": "doc"
+    },
+    {
+      "id": "40",
+      "title": "NATIVE SON",
+      "date": "05.05.2020",
+      "size": "2.33",
+      "type": "pdf"
     }
   ]
 }

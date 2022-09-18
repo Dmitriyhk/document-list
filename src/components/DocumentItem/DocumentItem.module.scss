@@ -1,0 +1,13 @@
+.item {
+  &_content {
+    padding: 20px;
+    & p {
+      font-weight: 600;
+      color: gray;
+      & span {
+        font-weight: 400;
+        color: black;
+      }
+    }
+  }
+}
